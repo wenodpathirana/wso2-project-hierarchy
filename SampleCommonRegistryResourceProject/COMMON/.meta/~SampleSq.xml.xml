@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><resource name="SampleSq.xml" isCollection="false" path="/_system/governance/sequences//COMMON/SampleSq.xml" registryUrl="https://localhost:9443/registry" md5="3778112a413c0c71f7f5dc6e62796222">
+    <mediaType>application/vnd.wso2.sequence</mediaType>
+    <version>1844</version>
+    <creator>admin</creator>
+    <createdTime>1395309999383</createdTime>
+    <lastUpdater>admin</lastUpdater>
+    <lastModified>1395309999383</lastModified>
+    <registryState>1</registryState>
+    <description/>
+</resource>

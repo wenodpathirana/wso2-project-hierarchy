@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="SampleProxyService" transports="https http" startOnLoad="true" trace="disable">
+    <target>
+        <endpoint key="gov:endpoints/SampleEP01.xml"/>
+        <inSequence/>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </target>
+</proxy>

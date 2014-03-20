@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_fOAacLAKEeO-4NE-QaLFRA" type="Esb" name="endpoint_SampleEP01.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_fPQXoLAKEeO-4NE-QaLFRA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fPQXpbAKEeO-4NE-QaLFRA" type="7001"/>
+    <children xmi:type="notation:Shape" xmi:id="_2Y6a0LAKEeO-4NE-QaLFRA" type="3642" fontName="Ubuntu">
+      <children xmi:type="notation:BasicCompartment" xmi:id="_2Y7B4bAKEeO-4NE-QaLFRA" type="7041">
+        <children xmi:type="notation:Node" xmi:id="_2Y_TULAKEeO-4NE-QaLFRA" type="3646">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2Y_TVbAKEeO-4NE-QaLFRA" type="5161"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_2Y_TUbAKEeO-4NE-QaLFRA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2Y_TUrAKEeO-4NE-QaLFRA" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_2Y_TU7AKEeO-4NE-QaLFRA"/>
+          <element xmi:type="esb:AddressEndPoint" href="endpoint_SampleEP01.esb#//@server/@children.0/@child"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y_TVLAKEeO-4NE-QaLFRA" width="75" height="75"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_2Y7B4rAKEeO-4NE-QaLFRA" showTitle="true"/>
+      </children>
+      <element xmi:type="esb:EndpointDiagram" href="endpoint_SampleEP01.esb#//@server/@children.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y7B4LAKEeO-4NE-QaLFRA" width="110" height="100"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_fPQXobAKEeO-4NE-QaLFRA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_fPQXorAKEeO-4NE-QaLFRA" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_fPQXo7AKEeO-4NE-QaLFRA"/>
+    <element xmi:type="esb:EsbServer" href="endpoint_SampleEP01.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fPQXpLAKEeO-4NE-QaLFRA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_fOAacbAKEeO-4NE-QaLFRA"/>
+  <element xmi:type="esb:EsbDiagram" href="endpoint_SampleEP01.esb#/"/>
+</notation:Diagram>

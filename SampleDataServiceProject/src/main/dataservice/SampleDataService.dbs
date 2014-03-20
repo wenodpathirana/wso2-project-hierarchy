@@ -1,0 +1,22 @@
+<data name="SampleDataService" serviceGroup="" serviceNamespace="">
+    <description/>
+    <config id="SampleDBS">
+        <property name="org.wso2.ws.dataservice.user">root</property>
+        <property name="org.wso2.ws.dataservice.password">root</property>
+        <property name="org.wso2.ws.dataservice.protocol">jdbc:mysql://localhost:3306/wenod_sample_database</property>
+        <property name="org.wso2.ws.dataservice.driver">com.mysql.jdbc.Driver</property>
+    </config>
+    <query id="SampleQuery" useConfig="SampleDBS">
+        <sql>select name,town from gilbarco_test where name = ? ;</sql>
+        <result element="Users" rowName="user">
+            <element column="name" name="name" exportType="SCALAR" xsdType="xs:string"/>
+            <element column="town" name="town" exportType="SCALAR" xsdType="xs:string"/>
+        </result>
+        <param name="name" paramType="SCALAR" sqlType="STRING"/>
+    </query>
+    <operation returnRequestStatus="true" name="getName">
+        <call-query href="SampleQuery">
+            <with-param name="name" query-param="name"/>
+        </call-query>
+    </operation>
+</data>
