@@ -28,6 +28,7 @@
     <module>SampleDataServiceProject</module>
     <module>SampleJAXRSProject</module>
     <module>SampleCommonRegistryResourceProject</module>
+    <module>SampleCommonRegistryCARProject</module>
     <module>SampleCommonArtifactsCARProject</module>
     <module>SampleDEVRegistryCARProject</module>
   </modules>
